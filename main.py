@@ -38,7 +38,7 @@ def main():
             draw.text((padding, padding + 40), MemUsage, fill=255)
             draw.text((padding, padding + 50), Disk, fill=255)
 
-            time.sleep(1)
+            time.sleep(0.1)
 
 if __name__ == "__main__":
     try:
